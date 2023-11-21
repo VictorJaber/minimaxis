@@ -15,24 +15,24 @@ import hazel from '../../../assets/photos-persons/hazel.png'
 
 export default function AboutUsComponent() {
 
-    const [modalIsOpenMentors, setModalIsOpenMentors] = useState(false);
-    const [modalIsOpenOrganizers, setModalIsOpenOrganizers] = useState(false);
+    // const [modalIsOpenMentors, setModalIsOpenMentors] = useState(false);
+    // const [modalIsOpenOrganizers, setModalIsOpenOrganizers] = useState(false);
 
-    const openModalOrganizers = () => {
-        setModalIsOpenOrganizers(true);
-    };
+    // const openModalOrganizers = () => {
+    //     setModalIsOpenOrganizers(true);
+    // };
 
-    const closeModalOrganizers = () => {
-        setModalIsOpenOrganizers(false);
-    };
+    // const closeModalOrganizers = () => {
+    //     setModalIsOpenOrganizers(false);
+    // };
 
-    const openModalMentors = () => {
-        setModalIsOpenMentors(true);
-    };
+    // const openModalMentors = () => {
+    //     setModalIsOpenMentors(true);
+    // };
 
-    const closeModalMentors = () => {
-        setModalIsOpenMentors(false);
-    };
+    // const closeModalMentors = () => {
+    //     setModalIsOpenMentors(false);
+    // };
 
     return (
         <div className='containerabout'>
@@ -56,7 +56,7 @@ export default function AboutUsComponent() {
                 </div>
             </div>
 
-            <Modal
+            {/* <Modal
                 isOpen={modalIsOpenOrganizers}
                 onRequestClose={closeModalOrganizers}
                 overlayClassName="custom-modal-overlay"
@@ -79,13 +79,13 @@ export default function AboutUsComponent() {
                             name=" Luciana Ferreira"
                             subtitle="Vinteum"
                         />
-                        
+
                     </div>
 
                     <button onClick={closeModalOrganizers} className='cardbutton'>Back</button>
                 </div>
             </Modal>
-            
+
             <Modal
                 isOpen={modalIsOpenMentors}
                 onRequestClose={closeModalMentors}
@@ -125,9 +125,9 @@ export default function AboutUsComponent() {
 
                     <button onClick={closeModalMentors} className='cardbutton'>Back</button>
                 </div>
-            </Modal>
+            </Modal> */}
 
-            <div className='containeroptions'>
+            {/* <div className='containeroptions'>
 
                 <div className='cardoptions'>
                     <div className='cardorganize'>
@@ -150,7 +150,7 @@ export default function AboutUsComponent() {
                 </div>
 
 
-            </div>
+            </div> */}
         </div>
     )
 };
