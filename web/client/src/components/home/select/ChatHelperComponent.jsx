@@ -20,7 +20,7 @@ export default function ChatHelperComponent() {
           <h2 className='cardh2'>ARTIFICIAL INTELLIGENCE</h2>
           <img src={mockup} id='mini-mockup' />
           <p className='cardpp'>Our chat assists the developer throughout the journey of developing<br></br> in miniscript, even providing a demo flowchart!</p>
-          <button className='cardbutton'>Go to use now</button>
+          <button className='cardbutton'>Try it now</button>
         </div>
       </div>
 
